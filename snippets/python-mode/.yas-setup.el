@@ -4,7 +4,7 @@
 First group should give the argument name.")
 
 (defvar python-split-arg-separator
-"[[:blank:]]*,[[:blank:]]*"
+"[[:space:]]*,[[:space:]]*"
 "Regular expression matching the separator in a list of argument.")
 
 (defun python-split-args (arg-string)
