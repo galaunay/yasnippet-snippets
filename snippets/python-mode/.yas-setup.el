@@ -1,3 +1,5 @@
+(defvar yas-text)
+
 (defvar python-split-arg-arg-regex
 "\\([[:alnum:]*]+\\)\\(:[[:blank:]]*[[:alpha:]]*\\)?\\([[:blank:]]*=[[:blank:]]*[[:alnum:]]*\\)?"
 "Regular expression matching an argument of a python function.
